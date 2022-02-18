@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Mobile Systems and Solutions Lab - MoSyS @ SUNY Korea</title>
+    <meta name="description" content="Mobile Systems and Solutions Lab Page at SUNY Korea">
+    <meta name="keywords" content="SUNY Korea, MoSyS, Mobile Systems and Solutions Lab, Locationing, Mobile Cloud">
+    <link rel="stylesheet" type="text/css" href="css/innerPageStyle.css">
+    <!-- modernizr enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-140665101-1"></script>
+    <script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-140665101-1');
+		</script>
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <div id="logo">
+          <div id="logo_text">
+            <!-- class="logo_colour", allows you to change the colour of the text -->
+            <h1>Projects</h1>
+          </div>
+        </div>
+        <nav>
+          <ul class="sf-menu" id="nav">
+            <li><a href="index.html">About</a></li>
+            <li class="selected"><a href="projects.html">Projects</a></li>
+            <li><a href="people.html">Members</a></li>
+            <li><a href="publications.html">Publications</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="site_content">
+        <ul id="images">
+          <li><a href="index.html"><img src="images/01-home.jpg" height="300" width="600"></a></li>
+          <li><a href="people.html"><img src="images/02-people.jpg" height="300"
+                width="600"></a></li>
+          <li><a href="projects.html"><img src="images/03-2-projects.jpg" height="300"
+                width="600"></a></li>
+          <li><a href="publications.html"><img src="images/04-publish.jpg" height="300"
+                width="600"></a></li>
+        </ul>
+        <div class="content">
+          <h1>Overview</h1>
+          <p>Current projects in the lab are along two themes.</p>
+          <ul>
+            <li><b>(Mobile) Application design using Machine Learning:</b> We
+              explore use of data driven techniques for designing novel
+              applications, such as recognizing emotions from smartphone
+              activities, or student attention levels in classroom based on
+              screen activity. We also work on analysis of traffic from mobile
+              devices, especially video traffic. </li>
+            <li><b>Design and Application of Mobile Edge Computing: </b> Mobile
+              Edge Computing (MEC) is a paradigm where remote resources can be
+              harnessed to seamlessly augment the capabilities of a mobile
+              device. The remote resource can be within the local area network,
+              or reside in the cloud within large data centers. Use of MEC can
+              help in designing novel applications by allowing enhanced
+              resources, but it may come at a cost of higher latency. Our
+              objective is to explore the space of novel applications, without
+              degrading the user experience due to the use of networked
+              resources. </li>
+          </ul>
+          <hr>
+          <h1> Project List </h1>
+          <ul>
+            <!-- Project ... -->
+            <li>
+              <h3>Mobile Affective Computing</h3>
+              <div> <button href="#project5" class="myButton">Show Details</button>
+              </div>
+              <div id="project5" style="display:none">
+                <p> Ability to detect the emotion states of an individual to
+                  different contextual and environmental stimuli has numerous
+                  applications. Affective computing relates to capturing
+                  emotions of an individual based on cues, like activity
+                  patterns, interaction patterns, physiological data from
+                  wearable devices. With growing use of mobile devices, data
+                  sources that help to recognize mental states, or emotions, of
+                  individuals are increasing. Wearable devices and smartphones,
+                  which are becoming ubiquitous in our lives, will be valuable
+                  source of data for diagnosis and even treatment of mental
+                  health disorders, like depression, bipolar disease, and
+                  rehabilitation from addictions. We investigate novel
+                  techniques for emotion recognition, specially focusing on the
+                  use of mobile and wearable devices for data collection, and
+                  improving the accuracy of detection by intelligently combining
+                  different data sources. </p>
+              </div>
+            </li>
+            <!-- Project ... -->
+            <li>
+              <h3>Indoor/Outdoor Locationing </h3>
+              <div> <button href="#project1" class="myButton">Show Details</button>
+              </div>
+              <div id="project1" style="display:none">
+                <p>Several approaches in locationing systems, both indoor and
+                  outdoor, explore the use of fingerprints hidden in the user's
+                  environment to identify a location. Images, and image
+                  features, constitute one of the natural fingerprints of a
+                  location. Cues inside an image, like landmarks, are matched
+                  against a database of geotagged images for locationing, but
+                  the process is compute and time intensive.In this work, we
+                  present the use of texts in the images, to pinpoint a user's
+                  location. The key intuition behind this work is that the
+                  collection of names of businesses, appearing in an image forms
+                  a bag-of-words that provides a unique signature for a
+                  location. Typically, use of OCR in outdoor settings is
+                  considered a hard problem, specially on resource constrained
+                  smartphones. We design a system, called WhereAmI, which
+                  presents a practical solution to the OCR problem. A fast
+                  bag-of-words matching technique, that can handle errors in
+                  text detection, is designed for locationing. We have
+                  implemented WhereAmI on Android based smartphones and
+                  evaluated the locationing accuracy under different settings in
+                  multilingual environment. </p>
+              </div>
+            </li>
+            <!-- Project ... -->
+            <li>
+              <h3>Real-time Application Support in Mobile Cloud</h3>
+              <div> <button href="#project2" class="myButton">Show Details</button>
+              </div>
+              <div id="project2" style="display:none">
+                <p>The mobile edge/cloud paradigm promises to augment resource
+                  limited mobile devices by providing unlimited compute power.
+                  Offloading part of the computation of an application not only
+                  saves battery power, but also speeds up the computation.
+                  However, selecting the appropriate portions for offloading is
+                  challenging, specially under different constraints, like
+                  variable and unreliable wireless channel, tight real-time
+                  deadlines to complete tasks. In this project, we are exploring
+                  the design space of mobile cloud computing systems, with a
+                  focus on real-time applications, like video streaming. </p>
+              </div>
+            </li>
+            <!-- Project 3 
+            <li>              <h2>Smartphone Traffic Shaping for Resource Management</h2>              <h3>In collaboration with IIT-Kharagpur (Prof. Niloy Ganguly,                Prof. Bivas Mitra, Prof. Sandip Chakraborty)</h3>              <div> <button href="#project3" class="myButton">Show Details</button>              </div>              <div id="project3" style="display:none">                <p>Number of network centric applications on smartphones is                  growing rapidly. Each of these applications demand the network                  resource, and wake up the network card on the smartphone in an                  unsynchronized manner for communication. The network card                  consumes energy. Any time when the card is woken up, and goes                  underutilized, there is a wastage of energy. Our goal in this                  project is to devise efficient traffic shaping mechanisms that                  can balance energy usage while maintaining high Quality of                  Experience for users. </p>              </div>            </li>           -->
+            <!-- Project 4 
+            <li>              <h2>Mobile Video Streaming: Resource Management</h2>              <h3>In collaboration with SKKU (Prof.Navrati Saxena and                Dr.Abhishek Roy)</h3>              <div> <button href="#project4" class="myButton">Show Details</button>              </div>              <div id="project4" style="display:none">                <p>Mobile video streaming is growing with smartphone enabled                  video generation and sharing to social groups. In this                  project, we investigate the challenges of live streaming                  mobile video over next generation networks. Video generation                  and streaming is a resource intensive operation, both for the                  end device as well as the infrastructure supporting it. One of                  the goals of the project is to design resource efficient                  techniques for mobile video distribution. </p>              </div>            </li>           	-->
+            <hr>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <p>Department of Computer Science • Statesboro, Georgia 30460 </p>
+      </footer>
+    </div>
+    <p></p>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+    <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+    <script type="text/javascript" src="js/jquery.kwicks.js"></script>
+    <script type="text/javascript" src="js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2,
+		sticky : true,
+		defaultKwick : 2,
+        behavior : 'slideshow'
+      });
+      $('ul.sf-menu').sooperfish();
+	  
+	  $('.myButton').click(function(){
+			//get collapse content selector
+			var collapse_content_selector = $(this).attr('href');					
+					
+			//make the collapse content to be shown or hide
+			var toggle_switch = $(this);
+			$(collapse_content_selector).toggle(function(){
+			  if($(this).css('display')=='none'){
+                //change the button label to be 'Show'
+				toggle_switch.html('Show Details');
+			  }else{
+                //change the button label to be 'Hide'
+				toggle_switch.html('Hide Details');
+			  }
+			});
+		});
+    });
+  </script>
+  </body>
+</html>

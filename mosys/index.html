@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Mobile Systems and Solutions Lab - MoSyS @ SUNY Korea</title>
+    <meta name="description" content="Mobile Systems and Solutions Lab Page at SUNY Korea">
+    <meta name="keywords" content="SUNY Korea, MoSyS, Mobile Systems and Solutions Lab, Locationing, Mobile Cloud">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- modernizr enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140665101-1"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-140665101-1');
+		</script>
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <div id="logo">
+          <div id="logo_text"> <!-- class="logo_colour", allows you to change the colour of the text -->
+            <h1>Mobile Systems and Solutions (MoSyS) lab</h1>
+            <h2>&nbsp;</h2>
+          </div>
+        </div>
+        <nav>
+          <ul class="sf-menu" id="nav">
+            <li class="selected"><a href="index.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="people.html">Members</a></li>
+            <li><a href="publications.html">Publications</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="site_content">
+        <ul id="images">
+          <li><a href="index.html"><img src="images/01-home.jpg" height="300" width="600"></a></li>
+          <li><a href="people.html"><img src="images/02-people.jpg" height="300"
+
+                width="600"></a></li>
+          <li><a href="projects.html"><img src="images/03-2-projects.jpg" height="300"
+
+                width="600"></a></li>
+          <li><a href="publications.html"><img src="images/04-publish.jpg" height="300"
+
+                width="600"></a></li>
+        </ul>
+        <div class="content">
+          <h1>MoSyS Lab Mission</h1>
+          <p>The mission of the Mobile Systems and Solutions, MoSyS, lab is to
+            explore novel techniques to enrich the mobile computing space. Our
+            goal is to leverage insights and technologies from different domains
+            of computer systems, like cloud computing, computer vision, machine
+            learning, and apply them to solve research challenges in mobile
+            computing space. </p>
+          <p></p>
+          <h1> Sponsors </h1>
+          <p> MoSyS lab is grateful for the support received from the following
+            funding sources.</p>
+          <ul>
+            <li>Faculty Research Seed Fund, College of Engineering and Computing</li>
+            <li>Faculty Research Council Award, Georgia Southern University</li>
+            <li>Georgia Southern University, College of Engineering and
+              Computing, Startup Fund</li>
+            <li><a href="https://sunyk.cs.stonybrook.edu/students/Graduate-Studies/IT_Consilience_Program">ITCCP</a>
+              Shared Funding at SUNY-Korea</li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <p>Department of Computer Science • Statesboro, Georgia 30460 </p>
+      </footer>
+    </div>
+    <p>&nbsp;</p>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+    <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+    <script type="text/javascript" src="js/jquery.kwicks.js"></script>
+    <script type="text/javascript" src="js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2,
+		sticky : true,
+		defaultKwick : 0,
+        behavior : 'slideshow'
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+    <script type="text/javascript">
+  	$('#latest_news').slimScroll({
+       	position: 'right',
+		height: '200px',
+    	railVisible: false
+    });
+ </script>
+  </body>
+</html>

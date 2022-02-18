@@ -1,0 +1,14 @@
+MoSyS page:
+
+- put a forward icon on the sliding images (using CSS)
+- create a banner/background for the top half
+- create a lab logo -- put the logo on webpage
+- update people page
+	- need table organization with pictures
+- update project page
+	- make it more focused on topics
+- setup individual project pages
+
+
+
+

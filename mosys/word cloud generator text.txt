@@ -1,0 +1,40 @@
+Class-based Shared Resource Allocation for Cell-Edge Users in OFDMA Networks
+Exploiting Multiple Description Coding for Intermediate Recovery in Wireless Mesh Networks
+Design Considerations for a Multi-hop Wireless Network Testbed. 
+Using GPUs to Crack Android Pattern-based Passwords 
+Towards an Interoperable Mobile Wallet Service 
+ConferenceSense: A Case Study of Sensing Public Gatherings using Participatory Smartphones 
+WhereAmI: Image-based Positioning in Dense Urban Areas 
+Human Sensors: Case-study of Open-ended Community Sensing in Developing Regions
+Caching VM Instances for Fast VM Provisioning: A Comparative Evaluation 
+Minimizing Latency in Serving Requests through Differential Template Caching in a Cloud Differential Template Caching in a Cloud 
+Dynamic Source and Channel Rate Adaptation for Video Streaming over Wireless Fading Channels
+Caching Techniques for Rapid Provisioning of Virtual Servers in Cloud Environment 
+Tracking Configuration Changes Proactively in Large IT Environments. 
+VMSpreader: Multi-tier Application Resiliency through Virtual Machine Striping 
+jitSim: A Simulator for Predicting Scalability of Parallel Applications in Presence of OS Jitter 
+Server Workload Analysis for Power Minimization using Consolidation
+Globally Fair Radio Resource Allocation for Wireless Mesh Networks
+
+Several approaches in locationing systems, both indoor and outdoor, explore the use of fingerprints hidden in the user's environment to identify a location. 
+Images, and image features, constitute one of the natural fingerprints of a location.
+Cues inside an image, like landmarks, are matched against a database of geotagged images for locationing, but the process is compute and time intensive.
+In this work, we present the use of texts in the images, to pinpoint a user's location.
+The key intuition behind this work is that the collection of names of businesses, appearing in an image forms a bag-of-words that
+provides a unique signature for a location. 
+Typically, use of OCR in outdoor settings is considered a hard problem, specially on resource constrained smartphones.
+We design a system, called WhereAmI, which presents a practical solution to the OCR problem.
+A fast bag-of-words matching technique, that can handle errors in text detection, is designed for locationing.
+We have implemented WhereAmI on Android based smartphones and evaluated the locationing accuracy under different settings in multilingual environment.
+
+The mobile cloud paradigm promises to augment resource limited mobile devices by providing unlimited compute power. Offloading part of the computation of an application not only saves battery power, but also speeds up the computation. However, selecting the appropriate portions for offloading is challenging, specially under different constraints, like variable and unreliable wireless channel, tight real-time deadlines to complete tasks. In this project, we are exploring the design space of mobile cloud computing systems, with a focus on real-time applications, like video streaming.	
+
+Smartphones are increasingly used as computing platforms for diverse resource intensive applications.
+However, limited resources on these devices make it difficult to deliver rich user experience.
+Mobile cloud computing, where application execution can be partitioned across mobile devices and faster cloud servers, has been shown to improve application performance, while saving resources, like energy.
+Careful choice of the tasks within an application that can be offloaded to the cloud is critical to maximize the performance and energy savings.
+While execution offloading saves computation energy on device, it consumes energy in transmission of program states to the cloud.
+Especially under typical variable channel conditions, network communication can consume significant amount of energy.
+Several works have formulated the task selection decision as a constrained optimization problem assuming stable network conditions. 
+In this work, we explore the design space of the task selection problem, starting from a sequential execution model to concurrent models, under varying channel conditions. 
+This work is intended to connect the large body of work in this space viewed through the lens of design complexity.
